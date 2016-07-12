@@ -4,5 +4,8 @@
   "dependencies": {
     "express": "^4.11.2"
   },
-  "private": true
+  "private": true,
+  "scripts": {
+    "start": "nodemon --watch server -e js,html start.js"
+  }
 }
